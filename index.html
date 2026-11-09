@@ -417,6 +417,14 @@ pre.term.art b{font-weight:500}
 @media (prefers-reduced-motion:reduce){
   *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important}
 }
+.fx .card.kpi{background:var(--night);padding:26px 28px 24px;overflow:visible}
+.kpi .row{display:flex;align-items:baseline;font-family:var(--display);font-weight:700;font-size:clamp(64px,7vw,112px);line-height:.9;letter-spacing:-.04em;color:var(--on-night);font-variant-numeric:tabular-nums}
+.kpi .pl{color:var(--blue);margin-right:.05em}
+.kpi .m{display:inline-block;color:var(--blue);opacity:0;transform:translateY(-160%)}
+.kpi .m.drop{animation:kpiDrop .36s cubic-bezier(.55,0,.85,.2) forwards}
+@keyframes kpiDrop{0%{opacity:0;transform:translateY(-160%)}40%{opacity:1}100%{opacity:1;transform:translateY(0)}}
+.kpi.shake{animation:kpiShake .45s cubic-bezier(.36,.07,.19,.97)}
+@keyframes kpiShake{10%,90%{transform:translate(-1px,1px) rotate(-.3deg)}20%,80%{transform:translate(3px,-2px) rotate(.4deg)}30%,50%,70%{transform:translate(-6px,4px) rotate(-.6deg)}40%,60%{transform:translate(6px,-3px) rotate(.6deg)}}
 </style>
 </head>
 <body data-tone="light">
@@ -549,9 +557,9 @@ Deux questions légitimes.
 
 Joueur depuis aussi longtemps que je me souvienne, j'ai toujours vécu le jeu vidéo en passionné d'aventures, attaché aux {grimoire:univers originaux, à l'immersion et à l'imagination.}
 
-En 2014, je rejoins l'équipe marketing de Blizzard Entertainment, pour {blizzard:six ans et tous les lancements de la période}, de World of Warcraft à Overwatch, Hearthstone et Heroes of the Storm. C'est là que j'ai appris comment un éditeur parle à ses joueurs, {sisyphe:à quel point leur confiance est longue à gagner, et rapide à perdre.}
+En 2014, je rejoins l'équipe marketing de {blizzard:Blizzard Entertainment, pour six ans et tous les lancements de la période}, de World of Warcraft à Overwatch, Hearthstone et Heroes of the Storm. C'est là que j'ai appris comment un éditeur parle à ses joueurs, {sisyphe:à quel point leur confiance est longue à gagner, et rapide à perdre.}
 
-Je passe ensuite côté agence. Chez Pavillon Noir, j'ai construit le département gaming et piloté des campagnes pour Activision, Ubisoft, Tencent, EA et Riot Games, entre autres : {chef:un chef qui cuisine pour les joueurs de Call of Duty pendant la semaine de sortie}, {medals:des médailles taillées dans les vieux ordinateurs de l'équipe Vitality}, {parfum:un parfum de victoire, entre poulet rôti et poudre à canon.}
+Je passe ensuite côté agence. Chez Pavillon Noir, j'ai construit le département gaming et piloté des campagnes pour Activision, Ubisoft, Tencent, EA et Riot Games, entre autres : {chef:un chef qui cuisine pour les joueurs de Call of Duty pendant la semaine de sortie}, {medals:des médailles taillées dans les vieux ordinateurs de l'équipe Vitality}, {chicken:un parfum de victoire, entre poulet rôti et poudre à canon.}
 
 À chaque fois, la même méthode : un insight qui vient de la communauté, les bons talents, un plan pensé pour chaque plateforme et {kpi:des résultats rapportés tels qu'ils sont.}
 
@@ -561,15 +569,15 @@ En parallèle, j'ai cofondé le pôle IA de l'agence et {weave:formé plus de 30
 
 Pour trois raisons très simples : d'où vous venez, ce que vous faites et où vous allez.
 
-Vous êtes nés dans la distribution, au plus près des joueurs. Vous soutenez la scène indépendante et placez l'expérience du joueur avant tout. {dotemu:L'acquisition de Dotemu} en est, à mon sens, un signal très fort.
+Vous êtes nés dans la distribution, au plus près des joueurs. Vous soutenez la scène indépendante et placez l'expérience du joueur avant tout. {dotemu:L'acquisition de Dotemu en est, à mon sens, un signal très fort.}
 
-Ensuite, vous éditez le genre de jeux que j'adore : {univers:des univers originaux, riches et profonds}, une vision singulière et mature, et un vrai sens du craft.
+Ensuite, vous éditez le genre de jeux que j'adore : {tale:des univers originaux, riches et profonds, une vision singulière et mature, et un vrai sens du craft.}
 
-Enfin, {lineup:votre line-up à venir} : de Resonance: A Plague Tale Legacy à Bradley the Badger, Magicians et CLUTCH, chaque jeu demandera une communication aussi singulière que lui.
+Enfin, votre line-up à venir : de Resonance: A Plague Tale Legacy à Bradley the Badger, Magicians et CLUTCH, {clutch:chaque jeu demandera une communication aussi singulière que lui.}
 
 Six ans côté éditeur, à faire vivre des jeux aimés par des communautés du monde entier. Quatre ans côté agence, à piloter toute la chaîne pour des jeux, des joueurs et des marchés très différents.
 
-{choix:C'est cette double expérience que j'aimerais mettre au service de Focus.}
+{epopee:C'est cette double expérience que j'aimerais mettre au service de Focus.}
 
 -- Karl
 </script>
@@ -578,9 +586,9 @@ Two fair questions.
 
 I have played video games for as long as I can remember, always as someone hooked on adventure, drawn to {grimoire:original worlds, immersion and imagination.}
 
-In 2014 I joined the marketing team of Blizzard Entertainment, for {blizzard:six years and every launch of the period}, from World of Warcraft to Overwatch, Hearthstone and Heroes of the Storm. That is where I learned how a publisher speaks to its players, and {sisyphe:how long their trust takes to earn, and how fast it can be lost.}
+In 2014 I joined the marketing team of {blizzard:Blizzard Entertainment, for six years and every launch of the period}, from World of Warcraft to Overwatch, Hearthstone and Heroes of the Storm. That is where I learned how a publisher speaks to its players, and {sisyphe:how long their trust takes to earn, and how fast it can be lost.}
 
-Then I moved to the agency side. At Pavillon Noir I built the gaming department and ran campaigns for Activision, Ubisoft, Tencent, EA and Riot Games, among others: {chef:a chef cooking for Call of Duty players during launch week}, {medals:medals carved from Team Vitality's old computers}, {parfum:the scent of victory, somewhere between roast chicken and gunpowder.}
+Then I moved to the agency side. At Pavillon Noir I built the gaming department and ran campaigns for Activision, Ubisoft, Tencent, EA and Riot Games, among others: {chef:a chef cooking for Call of Duty players during launch week}, {medals:medals carved from Team Vitality's old computers}, {chicken:the scent of victory, somewhere between roast chicken and gunpowder.}
 
 Each time, the same method: an insight that comes from the community, the right talents, a plan built for each platform, and {kpi:results reported as they are.}
 
@@ -590,15 +598,15 @@ Along the way, I co-founded the agency's AI practice and {weave:trained more tha
 
 For three simple reasons: where you come from, what you do, and where you are going.
 
-You were born in distribution, close to the players. You support the independent scene and put the player experience first. {dotemu:The acquisition of Dotemu} is, to me, a very strong signal.
+You were born in distribution, close to the players. You support the independent scene and put the player experience first. {dotemu:The acquisition of Dotemu is, to me, a very strong signal.}
 
-Then, you publish the kind of games I love: {univers:original, rich and deep worlds}, a singular and mature vision, and a real sense of craft.
+Then, you publish the kind of games I love: {tale:original, rich and deep worlds, a singular and mature vision, and a real sense of craft.}
 
-Finally, {lineup:your upcoming line-up}: from Resonance: A Plague Tale Legacy to Bradley the Badger, Magicians and CLUTCH, each game will need communication as distinctive as the game itself.
+Finally, your upcoming line-up: from Resonance: A Plague Tale Legacy to Bradley the Badger, Magicians and CLUTCH, {clutch:each game will need communication as distinctive as the game itself.}
 
 Six years on the publisher side, bringing to life games loved by communities around the world. Four years on the agency side, running the full chain for very different games, players and markets.
 
-{choix:That dual experience is what I would like to bring to Focus.}
+{epopee:That dual experience is what I would like to bring to Focus.}
 
 -- Karl
 </script>
@@ -1074,12 +1082,17 @@ function fxCard(key,id,text){
   else if(key==='torrent'){const t=document.createElement('div');t.className='term pad';card.appendChild(t);typeMagnet(t,alive)}
   else if(key==='switch'){const cv=document.createElement('canvas');card.appendChild(cv);pixField(cv,alive,'switch')}
   else if(key==='warm'){const cv=document.createElement('canvas');card.appendChild(cv);pixField(cv,alive,'warm')}
+  else if(key==='kpi'){card.className='card kpi';card.innerHTML='<div class="row"><span class="pl">+</span><span class="num">0</span><span class="m">M</span></div>';kpiAnim(card,alive)}
   else if(/^count\d+$/.test(key)){card.className='card light';card.innerHTML=`<div class="big"><span class="cnt" data-n="${key.slice(5)}">0</span><span class="blue">+</span></div><div class="lbl" style="padding:0 14px 14px">${L().countL}</div>`;countUp(card)}
   else if(imgs.length){let i=0;const w=document.createElement('div');w.appendChild(media(imgs[0],text,true));card.appendChild(w);
     if(imgs.length>1){const iv=setInterval(()=>{if(!alive()){clearInterval(iv);return}i=(i+1)%imgs.length;w.innerHTML='';w.appendChild(media(imgs[i],text,true))},1600)}}
   else{card.className='card light';card.innerHTML=`<div class="brandCard">${text}</div>`}
   return card;
 }
+/* +0 to 60, accelerating, then the M drops and shakes the card (under 3 s) */
+function kpiAnim(card,alive){const num=card.querySelector('.num'),m=card.querySelector('.m'),N=60,t0=performance.now()+250,dur=1650;
+  (function f(t){if(!alive()||!card.isConnected)return;const p=Math.max(0,Math.min(1,(t-t0)/dur));num.textContent=Math.round(N*p*p*p);
+    if(p<1){requestAnimationFrame(f);return}m.classList.add('drop');setTimeout(()=>{if(alive()&&card.isConnected)card.classList.add('shake')},360)})(performance.now())}
 function typeTerm(box,alive){const lines=L().term;let li=0;
   (function next(){if(!alive())return;if(li>=lines.length){box.insertAdjacentHTML('beforeend','<span class="caret"></span>');return}
     const ln=lines[li];const s=document.createElement('span');if(li===4)s.className='ok';box.appendChild(s);
